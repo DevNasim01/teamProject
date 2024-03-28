@@ -8,12 +8,12 @@ const End = () => {
 
             <div className='w-full flex justify-around text-xl font-semibold pb-10 px-5 mt-10'>
               <div className='w-full flex justify-center items-center flex-col'>
-                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2'><i className="fa-solid fa-eye"></i></span>
+                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2 text-2xl'><i className="fa-solid fa-eye"></i></span>
                 <p>Recently Visited</p>
               </div>
               
               <div className='w-full flex justify-center items-center flex-col'>
-                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2'><i className="fa-solid fa-user"></i></span>
+                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2 text-2xl'><i className="fa-solid fa-user"></i></span>
                 <p>Account making date</p>
               </div>
 
@@ -23,12 +23,12 @@ const End = () => {
               </div>
 
               <div className='w-full flex justify-center items-center flex-col'>
-                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2'><i className="fa-solid fa-mobile-screen"></i></span>
+                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2 text-2xl'><i className="fa-solid fa-mobile-screen"></i></span>
                 <p>ScreenTime</p>
               </div>
 
               <div className='w-full flex justify-center items-center flex-col'>
-                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2'><i className="fa-solid fa-user-shield"></i></span>
+                <span className='h-20 w-20 flex items-center justify-center rounded-full border-2 text-2xl'><i className="fa-solid fa-user-shield"></i></span>
                 <p>Public or privet</p>
               </div>
             </div>
