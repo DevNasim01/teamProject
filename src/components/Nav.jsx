@@ -3,12 +3,12 @@ import React from 'react'
 const Nav = () => {
   return (
     <>
-        <section className='w-full grid grid-cols-2 text-xl py-6 px-10 bg-[#4a3b81]'>
-            <div className='text-2xl'>
+        <section className='text-[1.4vw] w-full grid grid-cols-2 text-xl py-[2vw] px-[3vw] nav_bg rounded-b-lg'>
+            <div className=''>
                 <span><i className="fa-solid fa-bars"></i></span>
             </div>
 
-            <div className='flex justify-end gap-10 mr-12'>
+            <div className='flex justify-end gap-[4.5vw] mr-[2vw]'>
                 <span>Home</span>
                 <span>About us</span>
                 <span>Help</span>

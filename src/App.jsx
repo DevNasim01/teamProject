@@ -6,8 +6,12 @@ import Bg from './components/Bg'
 const App = () => {
   return (
     <>
-    <Nav />
-    <Bg />
+    <img className='fixed top-0 -z-20 h-dvh w-full object-cover' src="img.jpg" alt="" />
+    <div className='h-dvh'>
+        
+        <Nav />
+        <Bg />
+    </div>
     
     </>
   )
